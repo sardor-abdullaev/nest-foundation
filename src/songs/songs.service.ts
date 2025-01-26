@@ -7,7 +7,7 @@ export class SongsService {
 
   private readonly songs = [];
 
-  create(song: string) {
+  create(song:any) {
     // Save the song in the database
     this.songs.push(song);
     return this.songs;
