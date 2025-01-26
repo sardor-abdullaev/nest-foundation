@@ -7,7 +7,7 @@ export class SongsService {
 
   private readonly songs = [];
 
-  create(song:any) {
+  create(song: any) {
     // Save the song in the database
     this.songs.push(song);
     return this.songs;
@@ -15,6 +15,7 @@ export class SongsService {
 
   findAll() {
     // fetch the songs from the db
+    throw new Error('Error in DB while fetching record')
     return this.songs;
   }
 }
