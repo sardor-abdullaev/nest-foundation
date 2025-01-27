@@ -15,7 +15,7 @@ export class SongsService {
 
   findAll() {
     // fetch the songs from the db
-    throw new Error('Error in DB while fetching record')
+    // throw new Error('Error in DB while fetching record')
     return this.songs;
   }
 }
