@@ -5,7 +5,7 @@ export type Connection = {
 };
 
 export const connection: Connection = {
-  CONNECTION_STRING: 'CONNECTION_STRING',
+  CONNECTION_STRING: 'mysql',
   DB: 'MYSQL',
   DB_NAME: 'string',
 };
